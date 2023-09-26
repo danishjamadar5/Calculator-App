@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function Calculator() {
   const [input1, setInput1] = useState('');
   const [input2, setInput2] = useState('');
-  const [operator, setOperator] = useState('+');
+  const [operator, setOperator] = useState('');
   const [result, setResult] = useState('');
 
   const calculate = () => {
